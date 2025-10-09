@@ -1,0 +1,29 @@
+# 忽略 VSCode 配置
+.vscode/
+
+# 忽略编译生成的文件
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.lib
+
+# 忽略 CMake 构建目录
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 忽略临时文件
+*.log
+*.tmp
+*.swp
+
+# 忽略 Windows / macOS 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
